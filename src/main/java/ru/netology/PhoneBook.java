@@ -18,4 +18,8 @@ public class PhoneBook {
 
         return result.orElse("");
     }
+
+    public static long findByName(String name) {
+        return 0;
+    }
     }

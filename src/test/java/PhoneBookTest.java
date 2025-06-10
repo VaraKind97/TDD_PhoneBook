@@ -22,4 +22,12 @@ public class PhoneBookTest {
         final String result = PhoneBook.findByNumber(number);
         assertEquals(original, result);
     }
+
+    @Test
+    public void testFindByName() {
+        final String name = "TestName";
+        final long original = 9999999999L;
+        final long result = PhoneBook.findByName(name);
+        assertEquals(original, result);
+    }
 }
