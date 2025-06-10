@@ -20,6 +20,6 @@ public class PhoneBook {
     }
 
     public static long findByName(String name) {
-        return 0;
+        return phoneBook.get(name);
     }
     }
