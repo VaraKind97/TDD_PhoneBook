@@ -25,6 +25,6 @@ public class PhoneBook {
     public static List<String> printAllNames() {
         Map<String, Long> sortedMap = new TreeMap<>(phoneBook);
         sortedMap.keySet().forEach(System.out::println);
-        return new ArrayList<>(sortedMap.keySet());
+        return null;
     }
     }
