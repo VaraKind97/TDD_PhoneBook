@@ -16,6 +16,6 @@ public class PhoneBook {
                 .map(Map.Entry::getKey)
                 .findFirst();
 
-        return null;
+        return result.orElse("");
     }
     }
